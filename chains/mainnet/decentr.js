@@ -9,9 +9,13 @@ module.exports = {
   name: 'Decentr',
   icon: process.env.CF_PAGES_URL + '/img/chains/Decentr.svg',
   // ibc: {
-  //   toTerra: 'channel-99',
   //   fromTerra: 'channel-5',
+  //   toTerra: 'channel-99',
   // },
+  channels: {
+    'phoenix-1': 'channel-99',
+    'osmosis-1': 'channel-1',
+  },
   explorer: {
     address: 'https://ping.pub/decentr/account/{}',
     tx: 'https://ping.pub/decentr/tx/{}',

@@ -31,7 +31,7 @@ module.exports = {
   coinType: '330',
   baseAsset: 'uluna',
   name: 'Terra Classic',
-  icon: process.env.CF_PAGES_URL + '/img/chains/Terra.svg',
+  icon: process.env.CF_PAGES_URL + '/img/coins/TerraAUDClassic.svg',
   isClassic: true,
   alliance: false,
   burnAddress: 'terra1sk06e3dyexuq4shw77y3dsv480xv42mq73anxu',
@@ -40,6 +40,13 @@ module.exports = {
     tx: 'https://finder.hexxagon.dev/testnet/tx/{}',
     validator: 'https://finder.hexxagon.dev/testnet/validator/{}',
     block: 'https://finder.hexxagon.dev/testnet/block/{}',
+  },
+  channels: {
+    'juno-1': 'channel-20',
+    'crescent-1': 'channel-49',
+    'axelar-dojo-1': 'channel-19',
+    'cosmoshub-4': 'channel-2',
+    'osmosis-1': 'channel-28',
   },
   tokens: [
     {

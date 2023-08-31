@@ -7,10 +7,13 @@ module.exports = {
   coinType: '118',
   baseAsset: 'usei',
   name: 'Sei',
-  icon: process.env.CF_PAGES_URL + '/img/chains/Sei.png',
+  icon: process.env.CF_PAGES_URL + '/img/chains/sei.svg',
   ibc: {
     fromTerra: 'channel-100',
     toTerra: 'channel-11',
+  },
+  channels: {
+    'pisco-1': 'channel-11',
   },
   explorer: {
     address: 'https://sei.explorers.guru/account/{}',
@@ -22,8 +25,8 @@ module.exports = {
     {
       token: 'usei',
       symbol: 'SEI',
-      name: 'Sei',
-      icon: process.env.CF_PAGES_URL + '/img/coins/Sei.png',
+      name: 'Test Sei',
+      icon: process.env.CF_PAGES_URL + '/img/coins/sei.svg',
       decimals: 6,
     },
   ],

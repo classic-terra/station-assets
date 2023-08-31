@@ -41,6 +41,13 @@ module.exports = {
     validator: 'https://finder.terraclassic.community/mainnet/validator/{}',
     block: 'https://finder.terraclassic.community/mainnet/block/{}',
   },
+  channels: {
+    'juno-1': 'channel-20',
+    'crescent-1': 'channel-49',
+    'axelar-dojo-1': 'channel-19',
+    'cosmoshub-4': 'channel-2',
+    'osmosis-1': 'channel-28',
+  },
   tokens: [
     {
       token: 'uaud',

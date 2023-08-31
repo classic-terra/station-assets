@@ -8,10 +8,24 @@ module.exports = {
   baseAsset: 'ujuno',
   name: 'Juno',
   icon: process.env.CF_PAGES_URL + '/img/chains/Juno.svg',
-  // ibc: {
-  //   fromTerra: 'channel-20',
-  //   toTerra: 'channel-27',
-  // },
+  ibc: {
+    fromTerra: 'channel-20',
+    toTerra: 'channel-27',
+  },
+  channels: {
+    'columbus-5': 'channel-27',
+    'phoenix-1': 'channel-86',
+    'axelar-dojo-1': 'channel-71',
+    'akashnet-2': 'channel-29',
+    'chihuahua-1': 'channel-28',
+    'comdex-1': 'channel-36',
+    'cosmoshub-4': 'channel-1',
+    'crescent-1': 'channel-81',
+    'osmosis-1': 'channel-0',
+    'stride-1': 'channel-139',
+    'archway-1': 'channel-290',
+    'noble-1': 'channel-224',
+  },
   explorer: {
     address: 'https://www.mintscan.io/juno/account/{}',
     tx: 'https://www.mintscan.io/juno/txs/{}',

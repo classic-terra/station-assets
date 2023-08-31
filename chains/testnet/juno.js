@@ -18,7 +18,7 @@ module.exports = {
     {
       token: 'ujunox',
       symbol: 'JUNO',
-      name: 'Juno',
+      name: 'Test Juno',
       icon: process.env.CF_PAGES_URL + '/img/coins/Juno.svg',
       decimals: 6,
     },
