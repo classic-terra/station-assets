@@ -1,2 +1,2 @@
-# rebel-station-assets
-🛰️ Assets for Rebel Station
+# terra-classic-station-assets
+🛰️ Assets for Terra Classic Station
