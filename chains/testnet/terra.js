@@ -1,7 +1,6 @@
 module.exports = {
   chainID: 'rebel-2',
   lcd: 'https://lcd.hexxagon.dev',
-  api: 'https://api.hexxagon.dev',
   gasAdjustment: 5,
   gasPrices: {
     uluna: 28.325,
