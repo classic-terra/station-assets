@@ -2,6 +2,7 @@ module.exports = {
   chainID: 'columbus-5',
   lcd: 'https://lcd.terraclassic.community',
   api: 'https://api.terraclassic.community',
+  hive: 'https://hive.terraclassic.community/graphql',
   gasAdjustment: 5,
   gasPrices: {
     uluna: 28.325,
