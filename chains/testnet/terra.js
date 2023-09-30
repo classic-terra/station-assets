@@ -72,5 +72,12 @@ module.exports = {
       icon: process.env.CF_PAGES_URL + '/img/chains/Atreides.png',
       decimals: 6,
     },
+    {
+      token: 'ibc/E524FF76CDCF5604F448163D3E4A3178AC7998D8319C1B28F408D0CCA75E40BA',
+      symbol: 'LCG',
+      name: 'LuncGoblins Testnet',
+      icon: process.env.CF_PAGES_URL + '/img/coins/TerraUSDClassic.svg',
+      decimals: 6,
+    }
   ],
 }
